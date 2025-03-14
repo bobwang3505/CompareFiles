@@ -33,6 +33,7 @@ string folderPath1 = @"C:\Users\Aa\Desktop\新建文件夹 (2)";
 string folderPath2 = @"C:\Users\Aa\Desktop\新建文件夹 (4)";
 
 
+
 //string[] allFiles = FileComparisonTool.GetAllFilesInFolder(folderPath1);
 string[] allFiles = FileComparisonTool.GetAllFilesInFolder(folderPath2);
 
