@@ -29,7 +29,13 @@ string[] filePaths = {
 };
 
 string folderPath = @"C:\Users\Aa\Desktop\新建文件夹";
-string[] allFiles = FileComparisonTool.GetAllFilesInFolder(folderPath);
+string folderPath1 = @"C:\Users\Aa\Desktop\新建文件夹 (2)";
+string folderPath2 = @"C:\Users\Aa\Desktop\新建文件夹 (4)";
+
+
+//string[] allFiles = FileComparisonTool.GetAllFilesInFolder(folderPath1);
+string[] allFiles = FileComparisonTool.GetAllFilesInFolder(folderPath2);
+
 
 var duplicateFileGroups = FileComparisonTool.FindDuplicateFilesGrouped(allFiles);
 Console.WriteLine($"找到的重复文件组数量: {duplicateFileGroups.Count}");
