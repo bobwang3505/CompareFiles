@@ -17,7 +17,7 @@ namespace ConsoleApp1_CompareFiles
         public long FileSize { get; set; }
     }
 
-    // 文件比较工具类
+    // 文件比较工具类...
     public class FileComparisonTool
     {
         public static string[] GetAllFilesInFolder(string folderPath)
